@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+body {
+	background: url('../img/imacs.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Lora', serif;
+}
+
+a:hover, a:link, a:active {
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: 'Cabin', sans-serif;
+}
+
+header {
+	padding: 0 5px 5px 5px;
+	position: fixed;
+	background: #211426;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+}
+
+header h2 {
+	font-size: 1.5em;
+}
+
+header a:link, 
+header a:hover,
+header a:active,
+header a:visited {
+	color: #F2EFDF;
+}
+
+.headers {
+    float: left;
+    width: 200px;
+}
+
+.logo {
+  float: left;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  z-index: 61;
+  background: url('http://ashleyvilleneuve.ca/img/logo2.png');
+  margin: 10px 7px 5px 0;
+}
+
+.summary {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.container {
+	text-align: center;
+	width: 50%;
+	max-width: 700px;
+	margin: 10em auto 0 auto;
+	padding: 4em;
+	background-color: #F7F5F6;
+	-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.35);
+	-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.35);
+	box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.35);
+}
+
+.content {
+	height: 250px;
+	padding: 2em 5em 5em 5em;
+	overflow: auto;
+	background-color: #F0F0F0;
+	-webkit-box-shadow: 5px 5px 2px -2px rgba(0,0,0,0.35);
+	-moz-box-shadow: 5px 5px 2px -2px rgba(0,0,0,0.35);
+	box-shadow: 5px 5px 2px -2px rgba(0,0,0,0.35);
+}
+
+.content:hover {
+	background-color: #EBEBEB;
+	-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.35);
+	-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.35);
+	box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.35);
+}
+
+hr {
+	width: 30%;
+	border-color: #211426;
+}
+
+.content h2 {
+	color: #2F5F68;
+}
+
+input[type="radio"]{
+  margin: 0 6px 8px 0;
+}
+
+button {
+	margin-top: 2em;
+	padding: 1em;
+	font-size: 1em;
+	background-color: #F7F5F6;
+}
+
+footer {
+	text-align: center;
+	margin-top: 4em;
+}
+
+form {
+	text-align: center;
+	margin-top: 6em;
+}
+
+/* Media Queries */
+
+@media (max-width: 1050px){
+	h2 {
+		font-size: 1.4em;
+	}
+
+	.container {
+		padding: 3em;
+	}
+
+	.content {
+		padding: 2em 3em;
+	}
+}
+
+@media (max-width: 768px){
+
+	h1 {
+		font-size: 1.4em;
+	}
+
+	h2 {
+		font-size: 1.3em;
+	}
+
+	.container {
+		width: 60%;
+		min-width: 300px;
+		font-size: .9em;
+	}
+
+	.content {
+		padding: 1.5em;
+		font-size: 1em;
+	}
+}
+
