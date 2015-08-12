@@ -21,7 +21,7 @@
 
 			 	$query = "SELECT * FROM ideas where complexity='$com' ORDER BY RAND() limit 1;";  //limit by that complexity value then randomly select a record
 
-			 }else{ //if both complexity and category are limited
+			 }else{ //if both complexity and category are unlimited
 
 			 	$query = "SELECT * FROM ideas ORDER BY RAND() limit 1;"; //randomly select any record
 
